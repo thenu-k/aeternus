@@ -6,6 +6,7 @@ import Landing from '../components/Landing/Landing'
 import About from '../components/About/About'
 import Facts from '../components/Facts/Facts'
 import Sponsors from '../components/Sponsors/Sponsors'
+import Goal from '../components/Goal/Goal'
 
 
 
@@ -16,8 +17,9 @@ export default function Home() {
         <NavBar/>
         <Landing/>
         <About/>
-        <Facts/>
         <Sponsors/>
+        <Facts/>
+        <Goal/>
       </S.indexContainer>
     </>
   )

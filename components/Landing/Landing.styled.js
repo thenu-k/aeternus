@@ -24,6 +24,7 @@ export const LandingContainer = styled.section`
         > a{
             background-color: white; color: black; padding: 20px;
             font-weight: 400; 
+            border-radius: 10px;
             &:hover{
                 border: 0; opacity: 0.7;
             }

@@ -5,7 +5,7 @@ export const FactsContainer = styled.section`
     background-color: white; color: black;
 
     & .inner{
-        margin-bottom: 200px;
+        margin-bottom: 150px;
         width: 90%; display: flex; flex-direction: column; align-items: center;
 
         & h3{

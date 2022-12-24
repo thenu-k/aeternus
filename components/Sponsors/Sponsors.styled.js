@@ -22,6 +22,9 @@ export const SponsorsContainer = styled.section`
         & h3{
             font-size: 1.5em;
         }
+        & h4{
+            background-color: black; color: white; padding: 5px 10px; border-radius: 5px;
+        }
     }
 
     & .icons{

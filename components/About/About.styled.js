@@ -20,6 +20,7 @@ export const AboutContainer = styled.section`
 
             & h4{
                 font-weight: 400; font-size: 1em;
+                background-color: black; color: white; padding: 5px 10px; border-radius: 5px;
             }
             & h3{
                 font-weight: 400; font-size: 1.5em;
@@ -30,7 +31,7 @@ export const AboutContainer = styled.section`
         }
 
         &.image{
-            width: 40vw; height: 30vw; 
+            width: 50%; height: 30vw; 
             border-radius: 20px;
             background-image: url('/landing2.jpg'); background-position: center;
             background-size: cover; background-repeat: no-repeat;
