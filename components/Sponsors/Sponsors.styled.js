@@ -6,7 +6,7 @@ export const SponsorsContainer = styled.section`
     & .inner{
         width: 90%;
         display: flex; flex-direction: row-reverse; align-items: center; justify-content: space-between;
-        margin-bottom: 125px;
+        margin-bottom: 150px;
     }
 
     & .box.text{
