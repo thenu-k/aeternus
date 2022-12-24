@@ -21,7 +21,7 @@ export const NavBarContainer = styled.header`
         }
         & a{
             display: inline;
-            padding: 0 20px;
+            margin: 0 20px;
         }
     }
 `

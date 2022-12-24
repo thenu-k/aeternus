@@ -18,3 +18,8 @@ html, body, #next{
 .center{
     display: flex; align-items: center; justify-content: center;
 }
+
+:is(html) a:hover{
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+}

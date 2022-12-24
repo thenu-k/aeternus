@@ -5,7 +5,8 @@ const Landing = () => {
         <S.LandingContainer className='center'>
             <div className="text">
                 <h2>AETERNUS</h2>
-                <p>The Largest Radio Telescope in Scotland</p>
+                {/* <p>The Largest Radio Telescope in Scotland.</p> */}
+                <a href=''>Search Records</a>
             </div>
         </S.LandingContainer>
     );
