@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const NavBarContainer = styled.header`
     width: 100%;
-    background-color: black; color: white;
+    background-color: white; color: black;
     display: flex; flex-direction: row; align-items: center; justify-content: space-between;
 
     & h1{
-        font-size: 1.5em; font-weight: 900; 
+        font-size: 1.5em; font-weight: 400; 
         padding-left: 5%;
     }
 

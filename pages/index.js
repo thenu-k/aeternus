@@ -4,6 +4,7 @@ import *  as S from '../components/index.styled'
 import NavBar from '../components/common/NavBar/NavBar'
 import Landing from '../components/Landing/Landing'
 import About from '../components/About/About'
+import Facts from '../components/Facts/Facts'
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
         <NavBar/>
         <Landing/>
         <About/>
+        <Facts/>
       </S.indexContainer>
     </>
   )

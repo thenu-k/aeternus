@@ -23,5 +23,5 @@ html, body, #next{
 
 :is(html) a:hover{
     box-sizing: border-box;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid black;
 }

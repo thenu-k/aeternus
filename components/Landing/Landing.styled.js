@@ -13,17 +13,17 @@ export const LandingContainer = styled.section`
         color: white;
         display: flex; flex-direction: column; align-items: flex-start;
         > h2{
-            font-size: 6em; font-weight: 700;
+            font-size: 6em; font-weight: 400;
             margin-bottom: 30px;
         }
         > p{
-            font-weight: 700;
+            font-weight: 400;
             font-size: 1em;
             margin-bottom: 40px;
         }
         > a{
             background-color: white; color: black; padding: 20px;
-            font-weight: 700; 
+            font-weight: 400; 
             &:hover{
                 border: 0; opacity: 0.7;
             }
