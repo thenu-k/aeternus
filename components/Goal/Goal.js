@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import * as S from './Goal.styled'
 
 const Goal = () => {
@@ -14,6 +15,7 @@ const Goal = () => {
                     <img src="/cloverIcon.png" alt="" />
                     <img src="/reactIcon.png" alt="" />
                 </div> */}
+                {/* <Quote/> */}
             </div>
         </S.GoalContainer>
     );

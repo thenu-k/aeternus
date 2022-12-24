@@ -6,7 +6,7 @@ export const SponsorsContainer = styled.section`
     & .inner{
         width: 90%;
         display: flex; flex-direction: row-reverse; align-items: center; justify-content: space-between;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 
     & .box.text{
@@ -29,7 +29,7 @@ export const SponsorsContainer = styled.section`
 
     & .icons{
         width: 50%;
-        height: 400px; border-radius: 20px;
+        height: 30vw; border-radius: 20px;
         background-image: url('/sponsor.jpg'); background-position: center;
         background-size: cover; background-repeat: no-repeat;
         /* display: grid; grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;

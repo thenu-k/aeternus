@@ -22,8 +22,8 @@ export const GoalContainer = styled.section`
     }
 
     & p {
-        width: 70%; line-height: 1.5;
-        margin-bottom: 70px;
+        width: 70%; line-height: 2;
+        margin-bottom: 70px; text-align: center;
     }
 
     & .icons{
@@ -34,4 +34,5 @@ export const GoalContainer = styled.section`
             height: 90px; padding: 0 30px;
         }
     }
+
 `
