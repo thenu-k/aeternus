@@ -5,6 +5,7 @@ import NavBar from '../components/common/NavBar/NavBar'
 import Landing from '../components/Landing/Landing'
 import About from '../components/About/About'
 import Facts from '../components/Facts/Facts'
+import Sponsors from '../components/Sponsors/Sponsors'
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Landing/>
         <About/>
         <Facts/>
+        <Sponsors/>
       </S.indexContainer>
     </>
   )
