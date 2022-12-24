@@ -13,7 +13,7 @@ export const LandingContainer = styled.section`
         color: white;
         display: flex; flex-direction: column; align-items: flex-start;
         > h2{
-            font-size: 6em; font-weight: 900;
+            font-size: 6em; font-weight: 700;
             margin-bottom: 30px;
         }
         > p{

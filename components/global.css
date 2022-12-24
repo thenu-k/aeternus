@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0; border: 0; padding: 0;
-    text-decoration: none; list-style: none; font-size: 18px; 
+    text-decoration: none; list-style: none; font-size: 16px; 
     color: inherit; background-color: inherit; 
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Montserrat', sans-serif; letter-spacing: inherit;
 }
 
 html, body, #next{
@@ -21,5 +23,5 @@ html, body, #next{
 
 :is(html) a:hover{
     box-sizing: border-box;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
