@@ -21,7 +21,8 @@ html, body, #next{
     display: flex; align-items: center; justify-content: center;
 }
 
-:is(html) a:hover{
+:is(header) a:hover{
     box-sizing: border-box;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: -2px !important;
 }

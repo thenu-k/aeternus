@@ -7,7 +7,7 @@ export const NavBarContainer = styled.header`
 
     & h1{
         font-size: 1.5em; font-weight: 400; 
-        padding-left: 5%;
+        padding-left: 5%; letter-spacing: 2px;
     }
 
     & nav{

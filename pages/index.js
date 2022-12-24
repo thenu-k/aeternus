@@ -7,6 +7,7 @@ import About from '../components/About/About'
 import Facts from '../components/Facts/Facts'
 import Sponsors from '../components/Sponsors/Sponsors'
 import Goal from '../components/Goal/Goal'
+import Footer from '../components/common/Footer/Footer'
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Sponsors/>
         <Facts/>
         <Goal/>
+        <Footer/>
       </S.indexContainer>
     </>
   )
