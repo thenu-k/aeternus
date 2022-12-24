@@ -4,15 +4,15 @@ export const GoalContainer = styled.section`
     width: 100%;
 
     & .inner{
-        width: 90%; background-color: black; color: white;
+        width: 90%; background-color: white; color: black;
         border-radius: 20px;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
         display: flex; flex-direction: column; align-items: center;
     }
 
     & h4{
         margin-top: 50px; font-weight: normal; font-size: 1em; letter-spacing: 2px;
-        background-color: white; color: black; padding: 5px 20px; 
+        background-color: black; color: white; padding: 5px 20px; 
         border-radius: 5px;
     }
 
