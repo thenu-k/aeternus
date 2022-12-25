@@ -15,7 +15,6 @@ const AltNavBar = () => {
         const html = document.querySelector('html')
         function checkDrop(e) {
             var test = e.target.closest('#dropDownMenu')
-            console.log(e.target.id)
             if (showMenu===true && test===null && e.target.id!='menuButton'){
                 setShowMenu(false)
             }

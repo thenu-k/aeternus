@@ -19,10 +19,11 @@ export const FooterContainer = styled.footer`
         display: flex; flex-direction: row; 
 
         & .column{
-            display: flex; flex-direction: column; align-items: center;
+            display: flex; flex-direction: column; align-items: flex-start;
             margin-right: 100px;
             & a {
-                padding: 0 10px;
+                /* padding: 0 10px; */
+                text-align: left;
                 width: fit-content;
                 margin-bottom: 25px;
                 border-bottom: none;
@@ -33,9 +34,16 @@ export const FooterContainer = styled.footer`
                 &:last-of-type{
                     margin: 0;
                 }
+
+            }
+
+            & .columnHeading{
+                    display: none;
+                    font-weight: normal;
             }
 
             &.end{
+                margin-right: 0;
                 margin-left: auto;
                 & p{
                     margin-bottom: 25px;
@@ -43,4 +51,59 @@ export const FooterContainer = styled.footer`
             }
         }
     }
+
+    @media all and (max-width: 800px){
+            & .footerContents{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            & .column{
+                width: 100%;
+                margin: 0 !important;
+                padding: 25px 0 25px 0 !important;
+                border-top: 2px solid black;
+                height: 1em; overflow: hidden;
+                transition: height 0.5s ease-out;
+
+                &.column .columnHeading{
+                    margin-bottom: 25px;
+                    display: flex;
+                    & h5{
+                        font-weight: normal;
+                        margin-right: 20px;
+                    }
+                    & button{
+                        cursor: pointer;
+                        height: 1em; width: auto;
+                        display: flex; justify-content: center; align-items: center;
+                        position: relative;
+
+                        & img{
+                            height: 100%;
+                            position: absolute;
+                            top: 20%;
+                            transition: transform 0.5s ease-out;
+                            &.rotate {
+                                transform: rotate(-180deg);
+                            }
+                        }
+                    }
+                }
+
+            }
+            & .show{
+                    overflow: visible;
+                    height: 200px;;
+                }
+
+        }
+        & .column.end{
+                padding-top: 50px !important;
+                align-items: center;
+        }
+
+        & h3{
+            text-align: center; width: 100%;;
+        }
 `
