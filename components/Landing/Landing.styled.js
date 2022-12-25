@@ -49,8 +49,13 @@ export const LandingContainer = styled.section`
             top: 25%;
         }
         & .text h2{
-            font-size: 4em;
+            font-size: 3em;
             margin-bottom: 30px;
+        }
+        & .text a {
+            font-size: 0.8em;
+            padding: 15px;
+            border-radius: 8px;
         }
     }
 `
