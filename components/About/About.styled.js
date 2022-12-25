@@ -49,7 +49,7 @@ export const AboutContainer = styled.section`
                 max-width: none;
                 width: 90%;
                 margin-bottom: 60px;
-                & * {margin-bottom: 20px; line-height:1.3;}
+                & * {margin-bottom: 20px; line-height:1.5;}
             }
             &.image{
                 height: 40vw;

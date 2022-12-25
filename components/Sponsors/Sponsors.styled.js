@@ -51,7 +51,7 @@ export const SponsorsContainer = styled.section`
                 max-width: none;
                 width: 90%;
                 margin-bottom: 60px;
-                & * {margin-bottom: 20px; line-height:1.3;}
+                & * {margin-bottom: 20px; line-height:1.5;}
                 align-items: flex-start;
             }
             &.icons{

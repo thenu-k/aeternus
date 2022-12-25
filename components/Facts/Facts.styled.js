@@ -35,4 +35,36 @@ export const FactsContainer = styled.section`
             }
         }
     }
+
+    @media all and (max-width: 1024px){
+        & .inner{
+            margin-bottom: 100px;
+            & .innerFacts .box{
+                min-height: 300px; width: 300px;
+                h4{
+                    font-size: 3em; font-weight: 400;
+                }
+            }
+        }
+    }
+    @media all and (max-width: 700px){
+        & .inner{
+            & h3{
+            font-weight: 400; font-size: 1.5em;
+            margin-bottom: 60px; 
+            letter-spacing: 2px;
+            }   
+            & .innerFacts{
+                align-items: center;
+                flex-direction: column;
+                & .box{
+                    width: 90%;
+                    &:first-of-type{margin-bottom: 40px;}
+                    & p{
+                        max-width: 90%;
+                    }
+                }
+            }
+        }
+    }
 `
