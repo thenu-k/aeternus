@@ -45,6 +45,9 @@ export const LandingContainer = styled.section`
         }
     }
     @media all and (max-width: 500px){
+        & .text{
+            top: 25%;
+        }
         & .text h2{
             font-size: 4em;
             margin-bottom: 30px;

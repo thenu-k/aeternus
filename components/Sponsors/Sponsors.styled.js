@@ -39,4 +39,31 @@ export const SponsorsContainer = styled.section`
         } */
     }
 
+    @media all and (max-width: 1024px){
+        & .inner{
+            flex-direction: column;
+            margin-bottom: 100px;
+        }
+        & .box{
+            &.text{
+                padding-left: 25px; padding-right: 0;
+                border-right: 0; border-left: 2px solid black;
+                max-width: none;
+                width: 90%;
+                margin-bottom: 60px;
+                & * {margin-bottom: 20px; line-height:1.3;}
+                align-items: flex-start;
+            }
+            &.icons{
+                height: 40vw;
+                width: calc(90% + 25px);
+            }
+        }
+    }
+    @media all and (max-width: 500px){
+        & .box.icons{
+            height: 80vw;
+        }
+    }
+
 `
