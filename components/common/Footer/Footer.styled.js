@@ -62,7 +62,7 @@ export const FooterContainer = styled.footer`
                 width: 100%;
                 margin: 0 !important;
                 padding: 25px 0 25px 0 !important;
-                border-top: 2px solid black;
+                border-top: 1px solid #a2a2a2;
                 height: 1em; overflow: hidden;
                 transition: height 0.5s ease-out;
 
