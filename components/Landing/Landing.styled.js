@@ -32,6 +32,7 @@ export const LandingContainer = styled.section`
     }
 
     @media all and (max-width: 1024px){
+        height: calc(100vh - 50px);
         & .text{
             top: 35%;
             left: unset;
