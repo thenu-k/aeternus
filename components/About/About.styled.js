@@ -37,4 +37,29 @@ export const AboutContainer = styled.section`
             background-size: cover; background-repeat: no-repeat;
         }
     }
+
+    @media all and (max-width: 1024px){
+        & .inner{
+            flex-direction: column;
+            margin: 100px 0;
+        }
+        & .box{
+            &.text{
+                padding-left: 25px;
+                max-width: none;
+                width: 90%;
+                margin-bottom: 60px;
+                & * {margin-bottom: 20px; line-height:1.3;}
+            }
+            &.image{
+                height: 40vw;
+                width: calc(90% + 25px);
+            }
+        }
+    }
+    @media all and (max-width: 500px){
+        & .box.image{
+            height: 80vw;
+        }
+    }
 `

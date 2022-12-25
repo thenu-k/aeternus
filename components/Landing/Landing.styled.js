@@ -33,20 +33,21 @@ export const LandingContainer = styled.section`
 
     @media all and (max-width: 1024px){
         & .text{
+            top: 35%;
             left: unset;
             align-items: center;
             > h2{
-                font-size: 4em;
+                font-size: 5em;
             }
             > a {
-                padding: 15px 20px;
+                /* padding: 15px 20px; */
             }
         }
     }
     @media all and (max-width: 500px){
         & .text h2{
-            font-size: 3em;
-            margin-bottom: 50px;
+            font-size: 4em;
+            margin-bottom: 30px;
         }
     }
 `
