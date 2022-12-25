@@ -34,5 +34,20 @@ export const GoalContainer = styled.section`
             height: 90px; padding: 0 30px;
         }
     }
+    
+    @media all and (max-width: 1024px){
+        & .inner{
+            margin-bottom: 60px;
+            & h4{
+                margin-top:0;
+            }
+            & h3{
+                margin: 40px 0;
+            }
+            & p{
+                width: 90%;
+            }
+        }
+    }
 
 `
