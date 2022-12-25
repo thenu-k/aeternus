@@ -30,4 +30,23 @@ export const LandingContainer = styled.section`
             }
         }
     }
+
+    @media all and (max-width: 1024px){
+        & .text{
+            left: unset;
+            align-items: center;
+            > h2{
+                font-size: 4em;
+            }
+            > a {
+                padding: 15px 20px;
+            }
+        }
+    }
+    @media all and (max-width: 500px){
+        & .text h2{
+            font-size: 3em;
+            margin-bottom: 50px;
+        }
+    }
 `
