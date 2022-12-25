@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FactsContainer = styled.section`
-    width: 100%;
+    width: 100%; max-width: 2000px;
     background-color: white; color: black;
 
     & .inner{

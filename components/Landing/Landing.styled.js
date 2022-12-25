@@ -47,7 +47,7 @@ export const LandingContainer = styled.section`
     }
     @media all and (max-width: 500px){
         & .text{
-            top: 25%;
+            top: 35%;
         }
         & .text h2{
             font-size: 3em;

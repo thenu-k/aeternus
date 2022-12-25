@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.section`
-    width: 100%;
+    width: 100%; max-width: 2000px;
     background-color: white; color: black;
     letter-spacing: 2px;
     > .inner{
@@ -35,6 +35,7 @@ export const AboutContainer = styled.section`
             border-radius: 20px;
             background-image: url('/landing2.jpg'); background-position: center;
             background-size: cover; background-repeat: no-repeat;
+            max-height: 700px; max-width: 1000px;
         }
     }
 
@@ -52,7 +53,7 @@ export const AboutContainer = styled.section`
                 & * {margin-bottom: 20px; line-height:1.5;}
             }
             &.image{
-                height: 40vw;
+                height: 50vw;
                 width: calc(90% + 25px);
             }
         }

@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
     width: 100%;
     background-color: #e3e3e3;
     & .inner{
-        width: 90%;
+        width: 90%; max-width: 2000px;
         display: flex; flex-direction: column; align-items: flex-start;
         margin: 50px 0;
     }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SponsorsContainer = styled.section`
-    width: 100%;
+    width: 100%; max-width: 2000px;
 
     & .inner{
         width: 90%;
@@ -37,6 +37,7 @@ export const SponsorsContainer = styled.section`
         & *{
             height: 90px; padding: 20px;
         } */
+        max-height: 700px; max-width: 1000px;
     }
 
     @media all and (max-width: 1024px){
@@ -57,6 +58,7 @@ export const SponsorsContainer = styled.section`
             &.icons{
                 height: 40vw;
                 width: calc(90% + 25px);
+                height: 50vw;
             }
         }
     }

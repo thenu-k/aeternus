@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GoalContainer = styled.section`
-    width: 100%;
+    width: 100%; max-width: 2000px;
 
     & .inner{
         width: 90%; background-color: white; color: black;
