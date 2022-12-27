@@ -1,8 +1,12 @@
-# **AETERNUS**
-![alt text](https://aeternus-pf-02.vercel.app/landing2.jpg)
-## About
-AETERNUS is a (fictional) radio telescope. 
+# Aeternus
 
-This website is a portfolio project of mine. It's built with nextJS and styled-components. 
+<img src='https://aeternus-pf-02.vercel.app/readmeImage.png' height='300px' width='auto' style='border: 2px solid black; border-radius: 5px'/>
 
-Live link: https://aeternus-pf-02.vercel.app/
+### About
+
+Aeternus is a landing page for a fictional radio telescope. 
+
+### Tech Stack
+
+    - Next JS
+    - Styled Components
